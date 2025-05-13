@@ -54,17 +54,11 @@ export function Header() {
             <Link href="/features" className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary">
               Features
             </Link>
-            <Link href="/pricing" className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary">
-              Pricing
-            </Link>
-            <Link href="/about" className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary">
-              About
-            </Link>
           </nav>
         </div>
         <div className="ml-auto flex items-center space-x-4">
           <Button variant="ghost" size="sm" onClick={handleContactClick}>
-            Contact
+            Dashboard
           </Button>
           <ThemeToggle />
         </div>
